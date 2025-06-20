@@ -8,12 +8,12 @@ export default defineConfig({
   description: "everyone-blog",
   srcDir: "./docs",
   themeConfig: {
-    logo: './public/logo.png',
+    logo: '/logo.png',
     // https://vitepress.dev/reference/default-theme-config
     nav,
     sidebar,
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/everywangBUG' }
     ]
   }
 })

@@ -4,8 +4,9 @@ export default [
     items: [
       { text: 'html', link: '/html/base' },
       { text: 'css', link: '/css/base' },
-      { text: 'javascript', link: '/javascript/base'}
+      { text: 'javascript', link: '/javascript/base'},
+      { text: 'typescript', link: '/typescript/base'}
     ]
   },
-  { text: '面试', link: '/html/base' }
+  { text: '面试', link: '/interview/手写题' }
 ]
