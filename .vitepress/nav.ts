@@ -9,5 +9,5 @@ export default [
       { text: 'vue', link: '/vue/vue2-base'}
     ]
   },
-  { text: '面试', link: '/html/base' }
+  { text: '面试', link: '/interview/手写题' }
 ]
