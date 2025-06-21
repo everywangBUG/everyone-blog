@@ -17,15 +17,6 @@ export default {
       ]
     }
   ],
-  '/javascript/': [
-    {
-      text: 'javascript基础知识',
-      items: [
-        { text: 'javascript基础', link: '/javascript/base' },
-        { text: 'javascript进阶', link: '/javascript/javascript-advanced' }
-      ]
-    }
-  ],
   '/interview/': [
     {
       text: '面试题',
@@ -49,7 +40,7 @@ export default {
       items: [
         { text: '基本引用类型 ', link: '/javascript/基本引用类型' },
         { text: 'DOM操作和节点操作', link: '/javascript/DOM操作和节点操作' },
-        { text: 'xmind', link: '/javascript/基本引用类型' }
+        { text: 'xmind', link: '/javascript/xmind' }
       ]
     }
   ],
