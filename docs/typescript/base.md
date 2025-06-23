@@ -977,4 +977,5 @@ declare module "lodash" {
 ### 使用TS进行axios的封装
 
 ```typescript
+import axios, { AxiosRequestConfig, AxiosResponse } from 'axios'
 ```
