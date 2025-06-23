@@ -6,7 +6,7 @@ import sidebar from './sidebar'
 export default defineConfig({
   title: "everyone-blog",
   description: "everyone-blog",
-  srcDir: "./docs",
+  srcDir: "../everyone-blog/docs",
   base: '/everyone-blog/',
   themeConfig: {
     logo: '/logo.png',
