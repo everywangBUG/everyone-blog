@@ -7,7 +7,7 @@ export default defineConfig({
   title: "everyone-blog",
   description: "everyone-blog",
   srcDir: "./docs",
-  base: './docs/',
+  base: '/docs/',
   themeConfig: {
     logo: '/logo.png',
     // https://vitepress.dev/reference/default-theme-config
