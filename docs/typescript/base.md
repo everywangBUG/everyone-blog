@@ -977,13 +977,4 @@ declare module "lodash" {
 ### 使用TS进行axios的封装
 
 ```typescript
-import axios from 'axios'
-export default axios
-export const request = axios.create({
-  baseURL: 'http://localhost:3000',
-  timeout: 5000,
-  headers: { 'Content-Type': 'application/json' },
-  withCredentials: true,
-  validateStatus: function (status) {}
-})
 ```
