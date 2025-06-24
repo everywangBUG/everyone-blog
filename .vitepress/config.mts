@@ -11,6 +11,9 @@ export default defineConfig({
   themeConfig: {
     logo: '/logo.png',
     // https://vitepress.dev/reference/default-theme-config
+    search: {
+      provider: 'local'
+    },
     nav,
     sidebar,
     socialLinks: [
