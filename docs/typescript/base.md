@@ -978,4 +978,5 @@ declare module "lodash" {
 
 ```typescript
 import axios, { AxiosRequestConfig, AxiosResponse } from 'axios'
+export default class Http {}
 ```
