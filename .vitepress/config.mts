@@ -7,7 +7,7 @@ export default defineConfig({
   title: "everyone-blog",
   description: "everyone-blog",
   srcDir: "../everyone-blog/docs",
-  base: '/everyone-blog/',
+  // base: '/docs/',
   themeConfig: {
     logo: '/logo.png',
     // https://vitepress.dev/reference/default-theme-config
@@ -18,6 +18,10 @@ export default defineConfig({
     sidebar,
     socialLinks: [
       { icon: 'github', link: 'https://github.com/everywangBUG' }
-    ]
+    ],
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2022-present everyone'
+    }
   }
 })
